@@ -179,6 +179,10 @@ nav {
 }
 
 @media (max-width: 992px) {
+
+    .flex-column-reverse\@m {
+        flex-direction: column-reverse;
+    }
     .flex-column\@m {
         flex-direction: column;
     }
@@ -190,6 +194,11 @@ nav {
     .text-center\@m {
         text-align: center;
     }
+    
+    .padding-side\@m {
+        padding-left: 17px;
+        padding-right: 17px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -197,8 +206,4 @@ nav {
         padding: 70px 0;
     }
 
-    .padding-side\@s {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
 }

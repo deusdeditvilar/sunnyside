@@ -238,7 +238,7 @@
 
 #graphic-desc, #photo-desc {
     position: absolute;
-    bottom: 60px;
+    bottom: 50px;
     font-family: 'Barlow';
     color: var(--dark-sat-cyan);
     text-align: center;

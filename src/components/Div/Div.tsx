@@ -48,7 +48,7 @@ const Div: React.FC<divProps> = ({
         'margin-auto': marginAuto,
         'width-small@m': widthSm,
         'text-center@m' : txtCenterm,
-        'padding-side@s': padSides,
+        'padding-side@m': padSides,
 
         'flex': flex,
         'flex-between': flexBetween,

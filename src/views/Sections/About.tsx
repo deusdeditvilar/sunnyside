@@ -24,8 +24,8 @@ export default function About() {
 
                     <First>
 
-                        <Section secLarge>
-                            <Div flexCol flexJC flexACm marginAuto widthSm htFull txtCenterm padSides>
+                        <Section secLarge htFull>
+                            <Div flex flexCol flexJC flexACm marginAuto htFull widthSm txtCenterm padSides>
 
                                     <h1 className="about-title">Transform your brand</h1>
                                     <Text className="about-desc margin-auto margin-top-bottom">
@@ -58,9 +58,9 @@ export default function About() {
                                 <h1 className="about-title">Stand out to the right audience</h1>
 
                                 <Text className="about-desc margin-auto margin-top-bottom">
-                                    We are a full-service creative agency specializing in helping
-                                    brands grow fast. Engage your clients through compelling visuals
-                                    that do most of the marketing for you.
+                                    Using a collaborative formula of designers, researchers,
+                                    photographers, videographers, and copywriters, we'll
+                                    build and extend your brand in digital places.
                                 </Text>
 
                                 <Link href="#" className="learn-more width-fit-content" id="learn-red">LEARN MORE</Link>

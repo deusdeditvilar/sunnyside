@@ -10,6 +10,7 @@ import Testimonial from "./Sections/Testimonial";
 import Gallery from "./Sections/Gallery";
 import Graphic from "./Sections/Graphic";
 import Footer from "./Sections/Footer";
+import Container from "../components/Container/Container";
 
 class Home extends React.Component {
 
@@ -18,11 +19,13 @@ class Home extends React.Component {
         return (
             <Div>
                 <Menu></Menu>
-                <Main></Main>
-                <About></About>
-                <Graphic></Graphic>
-                <Testimonial></Testimonial>
-                <Gallery></Gallery>
+                <Container ctLarge className="padding-remove">
+                    <Main></Main>
+                    <About></About>
+                    <Graphic></Graphic>
+                    <Testimonial></Testimonial>
+                    <Gallery></Gallery>
+                </Container>
                 <Footer></Footer>
             </Div>
         )
