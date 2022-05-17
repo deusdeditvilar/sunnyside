@@ -1,0 +1,429 @@
+/* NAV */
+.offset {
+    position: fixed;
+    width: 100%;
+    transition: all .2s ease;
+    z-index: 4;
+}
+
+.offset.scrolled {
+    background: rgba(0, 0, 0, 0.35);
+    box-shadow: 2px 1px 12px rgba(0, 0, 0, .3);
+}
+
+.offset.scrolled .sunny-nav {
+    margin: 0 auto;
+    height: 70px;
+}
+
+.sunny-nav {
+    width: 100%;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    max-width: 1224px;
+    z-index: 4;
+    transition: all .4s ease;
+}
+
+.sunny-nav a {
+    color: var(--white);
+    margin-left: 40px;
+    position: relative;
+}
+
+.nav-links li:not(:last-child) a:after {
+    content: "";
+    position: absolute;
+    background: var(--text-primary);
+    width: 0;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    transition: all .3s;
+}
+
+.nav-links li:not(:last-child) a:hover::after {
+    width: 100%;
+}
+
+.sunny-nav button, .sunny-nav #hamburger {
+    display: none;
+}
+
+#hamburger div {
+    width: 30px;
+    height: 2px;
+    background: var(--white);
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+
+.offset.open #hamburger div:nth-child(3) {
+    width: 10px;
+}
+
+.offset.open #hamburger div:nth-child(2) {
+    width: 20px;
+}
+
+#hamburger {
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.contact {
+    background: var(--white);
+    color: var(--black) !important;
+    padding: 15px 24px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-family: 'Fraunces';
+    transition: all .5s ease;
+}
+
+.contact:hover {
+    background: rgb(255, 255, 255, 0.3);
+    color: var(--white) !important;
+    backdrop-filter: blur(10px);
+}
+
+/* END NAV */
+
+
+/* HERO */
+
+.main {
+    height: 100vh;
+    background-image: url(../media/desktop/image-header.jpg);
+    background-size: cover;
+    background-position: 45%;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    color: var(--white);
+    font-family: 'Fraunces';
+    font-weight: 900;
+    letter-spacing: 10px;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    column-gap: 15px;
+    row-gap: 20px;
+    justify-items: end;
+    display: grid;
+}
+
+
+.mask {
+    position: relative;
+    overflow: hidden;
+    width: inherit;
+    height: 40px;
+}
+
+.mask span {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-repeat: no-repeat;
+    bottom: -57px;
+}
+
+.mask span[data-show] {
+    transform: translateY(-100%);
+    transition: .5s transform ease-in-out;
+}
+
+.mask span[data-up] {
+    transform: translateY(-200%);
+    transition: .5s transform ease-in-out;
+}
+
+@keyframes slide {
+    from {
+        transform: translateY(-45px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes arrow {
+    0% {transform: translateY(0px);}
+    50% {transform: translateY(10px);}
+    100% {transform: translateY(0px);}
+}
+
+.hero-title {
+    animation: fade 4s, slide 3s;
+}
+#arrowdown {
+    animation: fade 4s, slide 3s, arrow 2s infinite;
+}
+
+.learn-more {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    color: var(--vdark-des-blue);
+    position: relative;
+}
+
+.learn-more::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 8px;
+    border-radius: 5px;
+    left: -3px;
+    bottom: -1px;
+    z-index: -1;
+    transition: all .4s ease-out;
+}
+
+#learn-yellow::after {
+    background-color: var(--yellow);
+}
+
+#learn-red::after {
+    background-color: var(--soft-red);
+}
+
+.learn-more:hover::after {
+    width: 105%;
+}
+
+/* ABOUT SECTION */
+
+.about-title, .cards h3 {
+    font-family: 'Fraunces';
+    color: var(--vdark-des-blue);
+    font-weight: 900;
+}
+
+.about-desc {
+    font-family: "Barlow";
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--dark-gblue);
+}
+
+/* GRAPHIC AND PHOTOGRAPHY SECTION */
+
+#graphic-title, #photo-title {
+    position: absolute;
+    bottom: 150px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Fraunces';
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+#graphic-desc, #photo-desc {
+    position: absolute;
+    bottom: 60px;
+    font-family: 'Barlow';
+    color: var(--dark-sat-cyan);
+    text-align: center;
+    width: 55%;
+    left: 0;
+    right: 0;
+    line-height: 1.6;
+}
+
+#graphic-title, #graphic-desc {
+    color: var(--dark-sat-cyan);
+}
+
+#photo-title, #photo-desc {
+    color: var(--dark-blue);
+}
+
+/* TESTIMONIAL SECTION */
+
+.testimonial-title {
+    text-transform: uppercase;
+    font-family: 'Fraunces';
+    color: var(--gblue);
+    letter-spacing: 3.4px;
+}
+
+.cards {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-items: center;
+}
+
+.cards p {
+    color: var(--vdark-gblue);
+}
+
+.card-img {
+    width: 60px;
+    border-radius: 100px;
+}
+
+.card-text {
+    font-size: .9rem;
+    margin: 8px 0;
+    color: var(--gblue);
+}
+
+/* IMAGES */
+
+.images {
+    grid-template-columns: repeat(4, 1fr)
+}
+
+.images img {
+    width: 100%;
+    height: 100%;
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: hsl(167deg 44% 70%)
+}
+
+.bottom-opt a {
+    padding: 0 20px;
+    font-family: 'Barlow';
+    color: var(--dark-mod-cyan);
+    margin-left: 20px;
+    transition: all .4s ease;
+}
+
+.bottom-social {
+    margin-top: 70px;
+}
+
+.bottom-social a {
+    padding: 0 10px;
+}
+
+.bottom-opt a:hover, .bottom-social a:hover svg path {
+    color: var(--white);
+    fill: var(--white);
+    transition: all .4s ease;
+}
+
+/* BREAKPOINTS */
+@media screen and (max-width: 992px) {
+    .nav-links {
+        position: fixed;
+        height: 0;
+        width: 0;
+        top: 85px;
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+        background: #fff;
+        transition: all 1s ease;
+        margin: 0;
+        z-index: 9;
+        right: 18px;
+    }
+
+    .nav-links * {
+        display: none;
+        opacity: 0;
+    }
+
+    .nav-links.open * {
+        display: block;
+        opacity: 1;
+    }
+
+    .sunny-nav a {
+        margin-left: auto;
+        color: var(--dark-gblue);
+    }
+
+    .contact {
+        background: var(--yellow);
+        width: 50%;
+    }
+
+    .contact:hover {
+        background: var(--gblue);
+    }
+
+    .sunny-nav li {
+        margin: 22px 0;
+    }
+
+    .nav-links.open {
+        width: 90%;
+        height: 245px;
+    }
+
+    .nav-links.open::after {
+        content: "";
+        position: absolute;
+        width: 4rem;
+        height: 4rem;
+        top: -2rem;
+        right: 0;
+        border-top: 2rem solid transparent;
+        border-right: 2rem solid var(--white);
+        transition: all 1s ease;
+    }
+
+    #main.open::after {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    .sunny-nav button, .sunny-nav #hamburger {
+        display: block;
+    }
+
+    body.disable {
+        overflow: hidden;
+    }
+
+    .main {
+        background-image: url(../media/mobile/image-header.jpg);
+    }
+
+    .images {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .hero-title {
+        justify-items: center;
+    }
+
+    .mask span {
+        left: 0;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #graphic-desc, #photo-desc {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .hero-title {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
