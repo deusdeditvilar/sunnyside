@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sunnyside/static/css/main.30a5989a.css",
-    "main.js": "/sunnyside/static/js/main.82df8e75.js",
+    "main.js": "/sunnyside/static/js/main.85b6ea54.js",
     "static/js/787.ffb0217a.chunk.js": "/sunnyside/static/js/787.ffb0217a.chunk.js",
     "static/media/image-header.jpg": "/sunnyside/static/media/image-header.9167cda0c72b56b2cda5.jpg",
     "static/media/image-gallery-milkbottles.jpg": "/sunnyside/static/media/image-gallery-milkbottles.df1d9d8460e873924250.jpg",
@@ -19,11 +19,11 @@
     "static/media/icon-facebook.svg": "/sunnyside/static/media/icon-facebook.101bd07e99eaeae8b0f594d4908d92b0.svg",
     "static/media/icon-arrow-down.svg": "/sunnyside/static/media/icon-arrow-down.979ef07a7cbb07d35f05bbaa093f7489.svg",
     "main.30a5989a.css.map": "/sunnyside/static/css/main.30a5989a.css.map",
-    "main.82df8e75.js.map": "/sunnyside/static/js/main.82df8e75.js.map",
+    "main.85b6ea54.js.map": "/sunnyside/static/js/main.85b6ea54.js.map",
     "787.ffb0217a.chunk.js.map": "/sunnyside/static/js/787.ffb0217a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30a5989a.css",
-    "static/js/main.82df8e75.js"
+    "static/js/main.85b6ea54.js"
   ]
 }
