@@ -40,7 +40,7 @@ export default function About() {
                     </First>
 
                     <Second>
-                        <Picture desktop={Eggdesk} mobile={Eggmob} />
+                        <Picture desktop={Eggdesk} mobile={Eggmob} alt="A layed egg making a shadow in a yellow background" />
                     </Second>
             </Divider>
 
@@ -48,7 +48,7 @@ export default function About() {
             <Divider column>
 
                     <First>
-                        <Picture desktop={Cupdesk} mobile={Cupmob} />
+                        <Picture desktop={Cupdesk} mobile={Cupmob} alt="A red cup with white shades on a red background" />
                     </First>
 
                     <Second>

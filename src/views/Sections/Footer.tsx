@@ -47,7 +47,7 @@ export default function Footer() {
     return (
         <Section id="footer">
             <Div txtCenter>
-                <img src={LogoBottom} alt="" width={150} />
+                <img src={LogoBottom} alt="Sunnyside logo" width={150} />
 
                 <List className="flex flex-justify-center bottom-opt margin-top-bottom" listItem={linkList}/>
 

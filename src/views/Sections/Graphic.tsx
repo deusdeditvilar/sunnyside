@@ -19,7 +19,7 @@ export default function Graphic() {
                     <First className="position-relative">
                         <Picture desktop={graphicDesk} mobile={graphicMob} />
 
-                        <h3 id="graphic-title">Graphic Design</h3>
+                        <h2 id="graphic-title">Graphic Design</h2>
                         <Text className="margin-auto" id="graphic-desc">
                             Great design makes you memorable. We deliver artwork
                             that underscores your brand message and captures potential
@@ -29,8 +29,8 @@ export default function Graphic() {
 
                     <Second className="position-relative">
                         <Picture desktop={photoDesk} mobile={photoMob} />
-                        <h3 id="photo-title">Photography</h3>
-                        <Text className="margin-auto" id="graphic-desc">
+                        <h2 id="photo-title">Photography</h2>
+                        <Text className="margin-auto" id="photo-desc">
                             Increase your credibility by getting the most stunning
                             high-quality photos that improve your business image.
                         </Text>

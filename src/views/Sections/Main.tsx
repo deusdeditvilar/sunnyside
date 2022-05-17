@@ -27,7 +27,7 @@ export default class Main extends React.Component {
 
     render() {
         return (
-            <Div className="main">
+            <Div className="main" role="main">
                 <Section secLarge htFull>
                     <Div txtCenter htFull>
 

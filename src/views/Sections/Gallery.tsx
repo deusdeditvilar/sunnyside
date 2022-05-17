@@ -15,10 +15,10 @@ export default function Gallery() {
 
     const data = {
         items: [
-            {item: (<img src={MilkBottle} alt="" />)},
-            {item: (<img src={Orange} alt="" />)},
-            {item: (<img src={Cone} alt="" />)},
-            {item: (<img src={SugarCubes} alt="" />)},
+            {item: (<img src={MilkBottle} alt="Bottles of milk with a fake sky made with cotton clouds in the background" />)},
+            {item: (<img src={Orange} alt="A plate with an orange on the center and an orange background" />)},
+            {item: (<img src={Cone} alt="An ice cream cone with a blue background" />)},
+            {item: (<img src={SugarCubes} alt="Sugar cubes mounted on top of eachother on a red background" />)},
         ]
     }
 

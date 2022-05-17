@@ -18,7 +18,8 @@ interface divProps {
     padSides?: boolean, 
     className?: string, 
     id?: string,
-    children?: React.ReactNode
+    children?: React.ReactNode,
+    role?: string
 }
 
 // export default function Div(props: any) {
@@ -39,7 +40,8 @@ const Div: React.FC<divProps> = ({
     padSides,
     className,
     id,
-    children
+    children,
+    role
       }) => {
     var divClasses = classNames({
         'height-full': htFull,
@@ -60,7 +62,7 @@ const Div: React.FC<divProps> = ({
         [className!]: className !== undefined,
     });
     return (
-        <div className={divClasses} id={id}>
+        <div className={divClasses} role={role} id={id}>
             {children}
         </div>
     )
