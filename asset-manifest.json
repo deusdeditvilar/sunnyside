@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/sunnyside/static/css/main.e33d7902.css",
+    "main.js": "/sunnyside/static/js/main.7abe22a6.js",
+    "static/js/787.ffb0217a.chunk.js": "/sunnyside/static/js/787.ffb0217a.chunk.js",
+    "static/media/image-header.jpg": "/sunnyside/static/media/image-header.9167cda0c72b56b2cda5.jpg",
+    "static/media/image-gallery-milkbottles.jpg": "/sunnyside/static/media/image-gallery-milkbottles.df1d9d8460e873924250.jpg",
+    "static/media/image-graphic-design.jpg": "/sunnyside/static/media/image-graphic-design.7ac8bdf0d3df29591a3b.jpg",
+    "static/media/image-photography.jpg": "/sunnyside/static/media/image-photography.104cf40b52f66520afb0.jpg",
+    "static/media/image-gallery-sugarcubes.jpg": "/sunnyside/static/media/image-gallery-sugarcubes.09b72f4fbfbf08579f9d.jpg",
+    "static/media/image-gallery-orange.jpg": "/sunnyside/static/media/image-gallery-orange.49f4212bc650862672a7.jpg",
+    "static/media/image-gallery-cone.jpg": "/sunnyside/static/media/image-gallery-cone.461ff4214c3ac822dfff.jpg",
+    "static/media/logo-bottom.svg": "/sunnyside/static/media/logo-bottom.41e3932f45ddff3eb188dd9d345fc5e5.svg",
+    "static/media/logo.svg": "/sunnyside/static/media/logo.4271b8992622e4dd1cc7de08466dab06.svg",
+    "static/media/icon-instagram.svg": "/sunnyside/static/media/icon-instagram.7d97118aca6da4dd308fbe5b0ad8b9d6.svg",
+    "static/media/icon-pinterest.svg": "/sunnyside/static/media/icon-pinterest.fd8b84da3f15023f2ae8d359495f43db.svg",
+    "index.html": "/sunnyside/index.html",
+    "static/media/icon-twitter.svg": "/sunnyside/static/media/icon-twitter.23df5d421d6e70c35715be06e375f403.svg",
+    "static/media/icon-facebook.svg": "/sunnyside/static/media/icon-facebook.101bd07e99eaeae8b0f594d4908d92b0.svg",
+    "static/media/icon-arrow-down.svg": "/sunnyside/static/media/icon-arrow-down.979ef07a7cbb07d35f05bbaa093f7489.svg",
+    "main.e33d7902.css.map": "/sunnyside/static/css/main.e33d7902.css.map",
+    "main.7abe22a6.js.map": "/sunnyside/static/js/main.7abe22a6.js.map",
+    "787.ffb0217a.chunk.js.map": "/sunnyside/static/js/787.ffb0217a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e33d7902.css",
+    "static/js/main.7abe22a6.js"
+  ]
+}
