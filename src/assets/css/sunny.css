@@ -103,7 +103,7 @@
 }
 
 .hero-title {
-    font-size: 2.5rem;
+    font-size: 2.9rem;
     color: var(--white);
     font-family: 'Fraunces';
     font-weight: 900;
@@ -121,7 +121,7 @@
     position: relative;
     overflow: hidden;
     width: inherit;
-    height: 40px;
+    height: 44px;
 }
 
 .mask span {
@@ -132,7 +132,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     background-repeat: no-repeat;
-    bottom: -57px;
+    bottom: -68px;
 }
 
 .mask span[data-show] {
@@ -299,7 +299,8 @@
 /* FOOTER */
 
 #footer {
-    background-color: hsl(167deg 44% 70%)
+    background-color: hsl(167deg 44% 70%);
+    flex-wrap: wrap;
 }
 
 .bottom-opt a {
@@ -423,7 +424,14 @@
         padding: 0 15px;
     }
 
-    .hero-title {
+    .mask span {
+        bottom: -73px;
+    }
+
+    .cards, .hero-title {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    .hero-title {
+        font-size: 2rem;
     }
 }

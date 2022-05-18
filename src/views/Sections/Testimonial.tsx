@@ -19,7 +19,7 @@ export default function Testimonial() {
 
                 <Section className="cards grid grid-gap">
 
-                    <Div txtCenter>
+                    <Div txtCenter padSides>
                         <img src={Emily} className="card-img" alt="A blonde girl with rocks on background" />
                         <Text className="margin-top-bottom-large">
                             We put our trust in Sunnyside and they delivered, making sure our
@@ -33,7 +33,7 @@ export default function Testimonial() {
                         </Text>
                     </Div>
 
-                    <Div txtCenter>
+                    <Div txtCenter padSides>
                         <img src={Thomas} alt="A man looking a the camera smiling" className="card-img" />
                         <Text className="margin-top-bottom-large">
                             Sunnyside's enthusiasm coupled with their keen interest in
@@ -47,7 +47,7 @@ export default function Testimonial() {
                         </Text>
                     </Div>
 
-                    <Div txtCenter>
+                    <Div txtCenter padSides>
                         <img src={Jennie} alt="A mid-aged woman looking at the camera smiling" className="card-img" />
                         <Text className="margin-top-bottom-large">
                             Incredible end result! Our sales increased over 400% when
